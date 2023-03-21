@@ -1,24 +1,33 @@
 import styled from 'styled-components';
 
-
 export const StyledHeader = styled.header`
-display: flex;
+  display: flex;
+
+  text-align: center;
   width: 100%;
-  /* height: ${p => p.theme.sizes.height[2]}px; */
-  background-color: ${p => p.theme.colors.backgroundColor};
+
   border: ${p => p.theme.borders.normal};
-  box-shadow: 0px 5px 12px -5px;
+
   background-color: ${p => p.theme.colors.twoBackgroundColor};
+`;
+
+export const BlockInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: ${p => p.theme.space[7]}px;
+`;
+
+export const Title = styled.h1`
+  color: ${p => p.theme.colors.accent};
 `;
 
 export const Card = styled.div`
   width: ${p => p.theme.sizes.width[4]}px;
-  /* margin-left: ${p => p.theme.space[4]}px; */
+  border: ${p => p.theme.borders.card};
 `;
 
-export const SecondaryTitle = styled.h3`
+export const SecondaryTitle = styled.h2`
   color: ${p => p.theme.colors.accent};
-  
 `;
 
 export const MyPhoto = styled.img`
@@ -30,22 +39,44 @@ export const MyPhoto = styled.img`
 `;
 
 export const ListContacts = styled.ul`
-  /* display: flex;
-  flex-wrap: wrap;
-  gap: ${p => p.theme.space[7]}px; */
+  padding: 0;
 `;
 
 export const ItemContact = styled.li`
- list-style: none;
+  list-style: none;
 `;
 
+export const StyledHiOutlinePhone = styled.span`
+  margin-top: ${p => p.theme.space[2]}px;
+  margin-right: ${p => p.theme.space[3]}px;
+`;
+
+export const StyledHiOutlineMail = styled.span`
+  margin-top: ${p => p.theme.space[2]}px;
+  margin-right: ${p => p.theme.space[3]}px;
+`;
 
 export const MyContact = styled.a`
   display: flex;
   align-items: center;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+
+  font-size: ${p => p.theme.fontSizes[1]}px;
   line-height: 24px;
-  color: gray;
+
+  color: ${p => p.theme.colors.accent};
 `;
+
+export const StyledLinks = styled.ul`
+  display: flex;
+  padding: 0;
+
+`;
+
+export const StyledLinkItem = styled.li`
+list-style: none;
+ &:first-child {
+        margin-right: 20px;
+    }
+
+`;
+

@@ -1,11 +1,13 @@
 export const theme = {
   colors: {
-    text: '#2F4F4F',
-    accent: '#A9A9A9',
+    text: '#000000',
+    twoText: '#808080',
+    // threeText: '#778899',
+    accent: '#FFFFFF',
 
-    backgroundColor: '#DCDCDC',
-    backgroundSearchBar: ' #ffffff',
-    twoBackgroundColor: '#f5f5f5',
+    backgroundColor: '#E6E6FA',
+    // backgroundSearchBar: ' #ffffff',
+    twoBackgroundColor: '#696969',
   },
 
   sizes: {
@@ -13,17 +15,18 @@ export const theme = {
     height: [1, 40, 48, 50, 64],
   },
 
-  fontSizes: [10, 16, 20],
+  fontSizes: [10, 14, 20],
 
   fontWeights: {
     middle: 500,
     bold: 700,
   },
 
-  space: [0, 2, 4, 10, 12, 20, 24, 30, 50, 350, 570],
+  space: [0, 2, 4, 10, 12, 20, 24, 30],
 
   borders: {
-    normal: '1px solid #D3D3D3',
+    normal: '1px solid #808080',
+    card: '3px solid #FFFFFF',
   },
 
   radii: {
