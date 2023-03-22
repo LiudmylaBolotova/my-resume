@@ -7,15 +7,15 @@ import Projects from 'components/Projects';
 import { Main } from './MainPage.styled';
 
 const MainPage = () => {
-    return (
-        <Main>
-            <About />
-            <Education />
-            <Experience/>
-            <Languages />
-            <Projects />
-      </Main>
-  )
+  return (
+    <Main>
+      <About />
+      <Education />
+      <Experience />
+      <Languages />
+      <Projects />
+    </Main>
+  );
 };
 
 export default MainPage;

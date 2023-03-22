@@ -23,6 +23,7 @@ export const Title = styled.h1`
 
 export const Card = styled.div`
   width: ${p => p.theme.sizes.width[4]}px;
+  background-color: ${p => p.theme.colors.accent};
   border: ${p => p.theme.borders.card};
 `;
 
@@ -33,6 +34,7 @@ export const SecondaryTitle = styled.h2`
 export const MyPhoto = styled.img`
   display: block;
   margin: 0;
+
   max-width: 100%;
   height: auto;
   background-position: center;
@@ -44,6 +46,7 @@ export const ListContacts = styled.ul`
 
 export const ItemContact = styled.li`
   list-style: none;
+  width: 210px;
 `;
 
 export const StyledHiOutlinePhone = styled.span`
@@ -59,24 +62,25 @@ export const StyledHiOutlineMail = styled.span`
 export const MyContact = styled.a`
   display: flex;
   align-items: center;
-
+  text-decoration: none;
   font-size: ${p => p.theme.fontSizes[1]}px;
   line-height: 24px;
 
   color: ${p => p.theme.colors.accent};
+  &:hover,
+  :focus {
+    border-bottom: ${p => p.theme.borders.linkBottom};
+  }
 `;
 
 export const StyledLinks = styled.ul`
   display: flex;
   padding: 0;
-
 `;
 
 export const StyledLinkItem = styled.li`
-list-style: none;
- &:first-child {
-        margin-right: 20px;
-    }
-
+  list-style: none;
+  &:first-child {
+    margin-right: 20px;
+  }
 `;
-

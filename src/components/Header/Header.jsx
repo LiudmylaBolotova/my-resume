@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <ListContacts>
           <ItemContact>
-            <MyContact>
+            <MyContact href="tel:+380993544316">
               <StyledHiOutlinePhone>
                 <HiOutlinePhone />
               </StyledHiOutlinePhone>
@@ -38,7 +38,7 @@ const Header = () => {
             </MyContact>
           </ItemContact>
           <ItemContact>
-            <MyContact>
+            <MyContact href="mailto:liudmylabolotova@gmail.com">
               <StyledHiOutlineMail>
                 <HiOutlineMail />
               </StyledHiOutlineMail>
@@ -47,30 +47,28 @@ const Header = () => {
           </ItemContact>
         </ListContacts>
 
-        
-          <nav>
-            <StyledLinks>
-              <StyledLinkItem>
-                <a
-                  href="https://github.com/liudmylabolotova"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrGithub color="white" size="40" />
-                </a>
-              </StyledLinkItem>
-              <StyledLinkItem>
-                <a
-                  href="https://www.linkedin.com/in/liudmyla-bolotova-441709224/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrLinkedin color="white" size="40" />
-                </a>
-              </StyledLinkItem>
-            </StyledLinks>
-          </nav>
-       
+        <nav>
+          <StyledLinks>
+            <StyledLinkItem>
+              <a
+                href="https://github.com/liudmylabolotova"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrGithub color="white" size="40" />
+              </a>
+            </StyledLinkItem>
+            <StyledLinkItem>
+              <a
+                href="https://www.linkedin.com/in/liudmyla-bolotova-441709224/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrLinkedin color="white" size="40" />
+              </a>
+            </StyledLinkItem>
+          </StyledLinks>
+        </nav>
       </BlockInfo>
     </StyledHeader>
   );

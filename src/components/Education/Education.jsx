@@ -1,6 +1,7 @@
 import {
   TertiaryTitle,
-  SecondaryText, StyledSection,
+  SecondaryText,
+  StyledSection,
   Text,
 } from './Education.styled';
 

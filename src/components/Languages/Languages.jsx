@@ -1,9 +1,4 @@
-import {
-  TertiaryTitle,
-  
-  StyledSection,
-  Text,
-} from './Languages.styled';
+import { TertiaryTitle, StyledSection, Text } from './Languages.styled';
 
 const Languages = () => {
   return (

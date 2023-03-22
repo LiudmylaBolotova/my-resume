@@ -1,4 +1,9 @@
-import { TertiaryTitle, StyledSection, SecondaryText, Text } from './Experience.styled';
+import {
+  TertiaryTitle,
+  StyledSection,
+  SecondaryText,
+  Text,
+} from './Experience.styled';
 
 const Experience = () => {
   return (

@@ -2,11 +2,8 @@ export const theme = {
   colors: {
     text: '#000000',
     twoText: '#808080',
-    // threeText: '#778899',
     accent: '#FFFFFF',
-
     backgroundColor: '#E6E6FA',
-    // backgroundSearchBar: ' #ffffff',
     twoBackgroundColor: '#696969',
   },
 
@@ -26,11 +23,8 @@ export const theme = {
 
   borders: {
     normal: '1px solid #808080',
-    card: '3px solid #FFFFFF',
-  },
-
-  radii: {
-    round: 3,
-    btnRound: 30,
+    card: '7px solid #FFFFFF',
+    linkBottom: '1px dashed #FFFFFF',
+    twoLinkBottom: '1px dashed #808080',
   },
 };
