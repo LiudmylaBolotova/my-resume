@@ -1,6 +1,7 @@
 import photoResume from '../Images/photoResume.jpg';
 import {
   StyledHeader,
+  StyledComponent,
   BlockInfo,
   Title,
   Card,
@@ -24,10 +25,10 @@ const Header = () => {
         <MyPhoto src={photoResume} alt="photo" />
       </Card>
       <BlockInfo>
-        <div>
+        <StyledComponent>
           <Title>Liudmyla Bolotova</Title>
           <SecondaryTitle>Junior Front-end developer</SecondaryTitle>
-        </div>
+        </StyledComponent>
         <ListContacts>
           <ItemContact>
             <MyContact href="tel:+380993544316">

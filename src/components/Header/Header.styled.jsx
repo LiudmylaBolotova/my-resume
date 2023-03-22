@@ -2,12 +2,9 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
   display: flex;
-
   text-align: center;
   width: 100%;
-
   border: ${p => p.theme.borders.normal};
-
   background-color: ${p => p.theme.colors.twoBackgroundColor};
 `;
 
@@ -15,6 +12,10 @@ export const BlockInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: ${p => p.theme.space[7]}px;
+`;
+
+export const StyledComponent = styled.div`
+  text-align: start;
 `;
 
 export const Title = styled.h1`
