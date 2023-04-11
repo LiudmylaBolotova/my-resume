@@ -14,7 +14,7 @@ const SoftSkills = () => {
         <Text>Ability to make decisions</Text>
         <Text>Flexible thinking</Text>
         <Text>Committed</Text>
-        <Text>Flexible</Text>
+        <Text>self-learning ability</Text>
         <Text>Open-minded</Text>
         <Text>Desire to improve your professional level</Text>
       </ListSkills>
