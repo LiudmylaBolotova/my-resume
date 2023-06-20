@@ -5,7 +5,7 @@ const About = () => {
     <StyledSection>
       <TertiaryTitle>About</TertiaryTitle>
       <Text>
-        I am a Junior Front-end developer. I focus on HTML5, CSS3, JS, React.
+        I am a Full Stack developer. I focus on HTML5, CSS3, JS, React, Node.
         Looking for a remote job. Development, practice and work for the result
         are important for me. My goal is professional development as well as
         learning English.

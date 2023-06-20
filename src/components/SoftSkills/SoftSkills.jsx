@@ -10,13 +10,11 @@ const SoftSkills = () => {
     <StyledSection>
       <TertiaryTitle>Soft Skills</TertiaryTitle>
       <ListSkills>
-        <Text>Teamwork</Text>
-        <Text>Ability to make decisions</Text>
-        <Text>Flexible thinking</Text>
-        <Text>Committed</Text>
-        <Text>self-learning ability</Text>
-        <Text>Open-minded</Text>
-        <Text>Desire to improve your professional level</Text>
+        <Text>Motivation and responsibility</Text>
+        <Text>Ability to work in a team and independently</Text>
+        <Text>Ability to search and analyze information</Text>
+        <Text>Willingness and desire to develop</Text>
+        <Text>Ability to work on mistakes</Text>
       </ListSkills>
     </StyledSection>
   );

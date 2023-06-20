@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 export const TertiaryTitle = styled.h3`
   color: ${p => p.theme.colors.twoText};
+  margin-top: ${p => p.theme.space[8]}px;
 `;
 
 export const StyledSection = styled.section`
   margin-right: ${p => p.theme.space[5]}px;
   margin-left: ${p => p.theme.space[5]}px;
+
 
   border-bottom: ${p => p.theme.borders.normal};
 `;

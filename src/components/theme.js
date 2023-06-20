@@ -19,7 +19,7 @@ export const theme = {
     bold: 700,
   },
 
-  space: [0, 2, 4, 10, 12, 20, 24, 30],
+  space: [0, 2, 4, 10, 12, 20, 24, 30, 35],
 
   borders: {
     normal: '1px solid #808080',

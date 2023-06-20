@@ -27,7 +27,7 @@ const Header = () => {
       <BlockInfo>
         <StyledComponent>
           <Title>Liudmyla Bolotova</Title>
-          <SecondaryTitle>Junior Front-end developer</SecondaryTitle>
+          <SecondaryTitle>Full Stack developer</SecondaryTitle>
         </StyledComponent>
         <ListContacts>
           <ItemContact>

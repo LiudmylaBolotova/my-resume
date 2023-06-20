@@ -2,6 +2,6 @@ import styled from 'styled-components';
 
 export const SidebarList = styled.section`
   position: absolute;
-  bottom: 53%;
+  bottom: 46%;
   left: 60%;
 `;
