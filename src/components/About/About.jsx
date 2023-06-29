@@ -7,8 +7,8 @@ const About = () => {
       <Text>
         I am a Full Stack developer. I focus on HTML5, CSS3, JS, React, Node.
         Looking for a remote job. Development, practice and work for the result
-        are important for me. My goal is professional development as well as
-        learning English.
+        are important for me. My goal is professional growth, as well as
+        improving my English.
       </Text>
     </StyledSection>
   );
