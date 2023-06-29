@@ -13,6 +13,22 @@ const Projects = () => {
     <StyledSection>
       <ListProjects>
         <TertiaryTitle>Projects</TertiaryTitle>
+
+        <ItemProject>
+          <LinkProject
+            href="https://github.com/LiudmylaBolotova/goit-react-hw-08-phonebook"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <SecondaryText>Phone Book</SecondaryText>
+            <Text>
+              The phone book has the functionality of registration, login and
+              password. Used React, Redux-Toolkit, Redux Persist, Axios,
+              Styled-components.
+            </Text>
+          </LinkProject>
+        </ItemProject>
+
         <ItemProject>
           <LinkProject
             href="https://github.com/LiudmylaBolotova/my-resume"
@@ -75,7 +91,7 @@ const Projects = () => {
               requesting complete information about the movie for the movie
               page; 4. requesting information about the cast for the movie page;
               5. requesting reviews for the movie page. Used React,
-              React-router-dom, Axios, Styled-components, React.lazy() and
+              React-router-dom, Axios, Styled-components, React.lazy and
               Suspense.
             </Text>
           </LinkProject>
