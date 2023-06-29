@@ -15,7 +15,8 @@ const TechSkills = () => {
         <Text>JavaScript</Text>
         <Text>React</Text>
         <Text>Redux</Text>
-         <Text>Node</Text>
+        <Text>Rest API</Text>
+        <Text>Node</Text>
         <Text>GIT</Text>
         <Text>Figma</Text>
         <Text>Scrum</Text>
