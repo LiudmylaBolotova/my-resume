@@ -10,9 +10,11 @@ const TechSkills = () => {
       <TertiaryTitle>Tech Skills</TertiaryTitle>
       <ListSkills>
         <Text>HTML5</Text>
+        <Text>PUG</Text>
         <Text>CSS3</Text>
         <Text>SASS</Text>
         <Text>JavaScript</Text>
+        <Text>TypeScript</Text>
         <Text>React</Text>
         <Text>Redux</Text>
         <Text>Rest API</Text>
